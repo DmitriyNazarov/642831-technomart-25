@@ -8,21 +8,26 @@
 		<header class="site-header">
 			<div class="site-header__top-menu">
 				<a href="index.html"><img src="img/logo.svg"  width="" height="" alt="Логотип Техномарта"></a>
-				<span class="search">Поиск</span>
-				<span class="bookmarks"><a href="#">Закладки</a></span>
-				<span class="shopping-cart"><a href="#">Корзина</a></span>
-				<span class="place-order"><a href="#">Оформить заказ</a></span>
+				<input class="search" type="search" placeholder="Поиск">
+				<span class="bookmarks"><a href="bookmarks.html">Закладки</a></span>
+				<span class="shopping-cart"><a href="shopping-cart.html">Корзина</a></span>
+				<span class="place-order"><a href="place-order.html">Оформить заказ</a></span>
 			</div>
-			<h1 class="site-header__title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-			<p class="site-header__contacts">
-				<span class="phone">+7 (812) 555-05-55</span>
-				г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-			</p>
-<!-- 			<ul class="user-navigation">
-				<li><a href="#">Войти</a></li>
-				<li><a href="#">Регистрация</a></li>
-			</ul> -->
-			<div class="user-box">
+			<div class="site-header__middle-part">
+				<h1 class="site-header__title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+				<p class="site-header__contacts">
+					<span class="phone">+7 (812) 555-05-55</span>
+					г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+				</p>
+				<ul class="user-nav visually-hidden">
+					<li class="user-nav__item">
+						<a class="user-nav__link" href="enter-profile.html">Войти</a>
+					</li>
+					<li class="user-nav__item">
+						<a class="user-nav__link" href="registration.html">Регистрация</a>
+					</li>
+				</ul>
+				<div class="user-box">
 				<p class="profile">
 					<a href="profile.html">Равшан Джамшутович</a>
 					<a href="de-authorization.html">Выход</a>
@@ -31,25 +36,46 @@
 					<li><a href="orders.html">Мои заказы</a></li>
 					<li><a href="account.html">Личный кабинет</a></li>
 				</ul>
+			</div>			
 			</div>
-			<nav class="site-navigation">
-				<ul class="navigation-list">
-					<li><a href="index.html">Главная</a></li>
-					<li><a href="aboutus.html">Компания</a></li>
-					<li><a href="catalog.html">Каталог</a></li>
-					<li><a href="news.html">Новости</a></li>
-					<li><a href="specialgoods.html">Спецпредложения</a></li>
-					<li><a href="delivery.html">Доставка</a></li>
-					<li><a href="contacts.html">Контакты</a></li>
+			<nav class="site-header__nav">
+				<ul class="nav-list">
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="index.html">Главная</a>
+					</li>
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="aboutus.html">Компания</a>
+				</li>
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="catalog.html">Каталог</a>
+				</li>
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="news.html">Новости</a>
+				</li>
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="specialgoods.html">Спецпредложения</a>
+				</li>
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="delivery.html">Доставка</a>
+				</li>
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="contacts.html">Контакты</a>
+				</li>
 				</ul>
 			</nav>
 		</header>
 		<main>
 			<ul class="breadcrumbs">
-				<li class="link-tohome"><a href="index.html">Главная</a></li>
-				<li><a href="catalog.html">Каталог</a></li>
-				<li><a href="tools.html">Инструмент</a></li>
-				<li>Перфораторы</li>
+				<li class="breadcrumbs__item link-tohome">
+					<a class="breadcrumbs__link" href="index.html">Главная</a>
+				</li>
+				<li class="breadcrumbs__item">
+					<a class="breadcrumbs__link" href="catalog.html">Каталог</a>
+				</li>
+				<li class="breadcrumbs__item">
+					<a class="breadcrumbs__link" href="tools.html">Инструмент</a>
+				</li>
+				<li class="breadcrumbs__item">Перфораторы</li>
 			</ul>
 			<h2 class="page-title">Перфораторы</h2>
 			<section class="filter">
@@ -153,26 +179,50 @@
 					г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
 					+7 (812) 555-05-55
 				</p>
-				<ul class="footer-navigation-list">
-					<li><a href="aboutus.html">Компания</a></li>
-					<li><a href="news.html">Новости</a></li>
-					<li><a href="catalog.html">Каталог</a></li>
-					<li><a href="delivery.html">Доставка</a></li>
-					<li><a href="contacts.html">Контакты</a></li>
+				<ul class="footer-nav-list">
+					<li class="footer-nav__item">
+						<a class="footer-nav__link" href="aboutus.html">Компания</a>
+					</li>
+					<li class="footer-nav__item">
+						<a class="footer-nav__link" href="news.html">Новости</a>
+					</li>
+					<li class="footer-nav__item">
+						<a class="footer-nav__link" href="catalog.html">Каталог</a>
+					</li>
+					<li class="footer-nav__item">
+						<a class="footer-nav__link" href="delivery.html">Доставка</a>
+					</li>
+					<li class="footer-nav__item">
+						<a class="footer-nav__link" href="contacts.html">Контакты</a>
+					</li>
 				</ul>
 				<ul class="goods-list">
-					<li><a href="materials.html">Материалы</a></li>
-					<li><a href="equipment.html">Техника</a></li>
-					<li><a href="tools.html">Инструмент</a></li>
-					<li><a href="specialgoods.html">Спецпредложения</a></li>
+					<li class="goods-list__item">
+						<a  class="goods-list__link" href="materials.html">Материалы</a>
+					</li>
+					<li class="goods-list__item">
+						<a class="goods-list__link" href="equipment.html">Техника</a>
+					</li>
+					<li class="goods-list__item">
+						<a class="goods-list__link" href="tools.html">Инструмент</a>
+					</li>
+					<li class="goods-list__item">
+						<a class="goods-list__link" href="specialgoods.html">Спецпредложения</a>
+					</li>
 				</ul>
 			</div>
 			<div class="site-footer__lower-part">
 				<p>©2010–2019 Компания «Техномарт» Все права защищены</p>
 				<ul class="social">
-					<li><a href="https://vk.com/htmlacademy">Вконтакте</a></li>
-					<li><a href="https://www.facebook.com/htmlacademy">Фейсбук</a></li>
-					<li><a href="https://www.instagram.com/htmlacademy/">Инстаграм</a></li>
+					<li class="social__item">
+						<a class="social__link" href="https://vk.com/htmlacademy">Вконтакте</a>
+					</li>
+					<li class="social__item">
+						<a class="social__link" href="https://www.facebook.com/htmlacademy">Фейсбук</a>
+					</li>
+					<li class="social__item">
+						<a class="social__link" href="https://www.instagram.com/htmlacademy/">Инстаграм</a>
+					</li>
 				</ul>
 				<p>Обратная связь:	
 					<a href="#">mail@htmlacademy.ru</a>
@@ -184,5 +234,3 @@
 		</footer>
 	</body>
 </html>
-
-Свяжитесь со мной по Skype. (sergeypopenko1987)
