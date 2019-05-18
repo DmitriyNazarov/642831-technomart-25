@@ -130,13 +130,13 @@
 				<p>©2010–2019 Компания «Техномарт» Все права защищены</p>
 				<ul class="social">
 					<li class="social__item">
-						<a class="social__link" href="https://vk.com/htmlacademy">Вконтакте</a>
+						<a class="social__link" href="https://vk.com/htmlacademy" aria-label="Вконтакте"></a>
 					</li>
 					<li class="social__item">
-						<a class="social__link" href="https://www.facebook.com/htmlacademy">Фейсбук</a>
+						<a class="social__link" href="https://www.facebook.com/htmlacademy" aria-label="Фейсбук"></a>
 					</li>
 					<li class="social__item">
-						<a class="social__link" href="https://www.instagram.com/htmlacademy/">Инстаграм</a>
+						<a class="social__link" href="https://www.instagram.com/htmlacademy/" aria-label="Инстаграм"></a>
 					</li>
 				</ul>
 				<p>Обратная связь:	
@@ -147,5 +147,32 @@
 				</p>
 			</div>
 		</footer>
+
+		<section class="modal modal-message">
+			<h2 class="visually-hidden">Написать сообщение</h2>
+			<form class="message-form" action="https://echo.htmlacademy.ru" method="post">
+				<p class="massage-form__element">
+					<label class="half-block">Ваше имя:
+						<input type="text" name="message-name" placeholder="Имя Фамилия">
+					</label>
+					<label class="half-block">Ваш e-mail:
+						<input type="email" name="message-email" placeholder="email@example.com">
+					</label>
+				</p>
+				<p class="massage-form__element">
+					<label>Текст письма:
+						<textarea name="massage-text" cols="60" rows="8"></textarea>
+					</label>
+				</p>
+				<button class="btn" type="submit">Отправить</button>
+			</form>
+			<button class="modal-close-btn" type="button" aria-label="Закрыть форму отправки сообщений">x</button>
+		</section>
+
+		<section class="modal modal-map">
+			<h2 class="visually-hidden">Мы на карте</h2>
+			<img src="img/map-full.png" alt="Адресс магазин «Техномарт» г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+			<button class="modal-close-btn" type="button" aria-label="Закрыть карту">x</button>
+		</section>
   </body>
 </html>

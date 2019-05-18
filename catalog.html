@@ -80,7 +80,40 @@
 			<h2 class="page-title">Перфораторы</h2>
 			<section class="filter">
 				<h3>Фильтр:</h3>
-				<!-- форма -->
+				<form action="https://echo.htmlacademy.ru" method="get">
+					<fieldset>
+						<legend>Производители:</legend>
+						<ul class="manufacturer-list">
+							<li class="manufacturer__item">
+								<label><input type="checkbox" name="manufacturer-bosch" checked>Bosch</label>
+							</li>
+							<li class="manufacturer-list__item">
+								<label><input type="checkbox" name="manufacturer-interskol">Интерскол</label>
+							</li>
+							<li class="manufacturer-list__item">
+								<label><input type="checkbox" name="manufacturer-makita" checked>Makita</label>
+							</li>
+							<li class="manufacturer-list__item">
+								<label><input type="checkbox" name="manufacturer-dewalt">Dewalt</label>
+							</li>
+							<li class="manufacturer-list__item">
+								<label><input type="checkbox" name="manufacturer-hitachi">Hitachi</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset>
+						<legend>Питание:</legend>
+						<ul class="power-source-list">
+							<li class="power-source-list__item">
+								<label><input type="radio" name="power-source" value="accumulator">Аккумуляторные</label>
+							</li>
+							<li class="power-source-list__item">
+								<label><input type="radio" name="power-source" value="power network">Сетевые</label>
+							</li>
+						</ul>
+					</fieldset>
+					<button class="btn btn-white" type="submit">Показать</button>
+				</form>
 			</section>
 			<section class="catalog">
 				<h3 class="visually-hidden">Каталог товаров</h3>
@@ -260,13 +293,13 @@
 				<p>©2010–2019 Компания «Техномарт» Все права защищены</p>
 				<ul class="social">
 					<li class="social__item">
-						<a class="social__link" href="https://vk.com/htmlacademy">Вконтакте</a>
+						<a class="social__link" href="https://vk.com/htmlacademy" aria-label="Вконтакте"></a>
 					</li>
 					<li class="social__item">
-						<a class="social__link" href="https://www.facebook.com/htmlacademy">Фейсбук</a>
+						<a class="social__link" href="https://www.facebook.com/htmlacademy" aria-label="Фейсбук"></a>
 					</li>
 					<li class="social__item">
-						<a class="social__link" href="https://www.instagram.com/htmlacademy/">Инстаграм</a>
+						<a class="social__link" href="https://www.instagram.com/htmlacademy/" aria-label="Инстаграм"></a>
 					</li>
 				</ul>
 				<p>Обратная связь:	
@@ -277,5 +310,12 @@
 				</p>
 			</div>
 		</footer>
+
+		<section class="modal modal-cart-add">
+			<h3>Товар добавлен в корзину!</h3>
+			<a class="btn" href="place-order.html" >оформить заказ</a>
+			<button class="btn btn-white">Продолжить покупки</button>
+			<button class="modal-close-btn" aria-label="Закрыть уведомление">Х</button>
+		</section>
 	</body>
 </html>
