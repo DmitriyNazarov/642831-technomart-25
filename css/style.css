@@ -15,7 +15,7 @@ a {
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
-	align-items: center;
+	text-align: center;
 	color: #fff;
 	background-color: #ee3643;
 	border: none;
@@ -176,6 +176,7 @@ a {
 
 .nav-list__link:active {
 	color: rgba(255,255,255,0.5);
+	background-color: #293449
 }
 
 .index-columns h2 {
@@ -191,6 +192,181 @@ a {
 
 .transport-companies {
 	list-style: none;
+}
+
+/*----------------------------------Каталог---------------------------------*/
+
+.breadcrumbs {
+	list-style: none;
+}
+
+.breadcrumbs__link {
+	font-size: 13px;
+	line-height: 18px;
+	color: #000;
+}
+
+.breadcrumbs__link:hover,
+.breadcrumbs__link:focus,
+.breadcrumbs__link:active {
+	text-decoration: underline;
+}
+
+.page-title {
+	font-size: 30px;
+	line-height: 30px;
+	color: #32425c ;
+	background-color: #f2f6f8;
+}
+
+.filter h3 {
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.filter fieldset {
+	border: none;
+}
+
+.filter legend {
+	font-size: 17px;
+	line-height: 30px;
+}
+
+.filter-list-brands {
+	list-style: none;
+	border-bottom: 1px solid #e5e5e5; 
+}
+
+.filter-list-power-source {
+	list-style: none;
+}
+
+.filter__item {
+	font-size: 15px;
+	line-height: 20px;
+}
+
+/*
+.filter__item input:hover,
+.filter__item input:focus,
+.filter__item input:disabled*/
+
+.catalog-btn {
+	font-family: 'PTSans', Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: uppercase;;
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+}
+
+.catalog-btn:hover,
+.catalog-btn:focus {
+	border-color: #bdc6ca;
+}
+
+.catalog-btn:active {
+	border-color: #ee3643;
+	outline: none;
+
+}
+
+.catalog-list {
+	list-style: none;
+}
+
+.catalog-item {
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+}
+
+.catalog-item:hover,
+.catalog-item:focus {
+	box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.catalog-item:hover .catalog-item__buymenu,
+.catalog-item:focus .catalog-item__buymenu {
+	display: block;
+}
+
+.catalog-item__buymenu {
+	list-style: none;
+	display: none;
+}
+
+.catalog-item__title a {
+	font-family: 'PTSans', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+}
+
+.catalog-item__buymenu .buy {
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	background-color: #63a63e;
+	box-shadow: inset 0 -3px 0 #367315;
+	border-radius: 2px;
+}
+
+.catalog-item__buymenu .buy:hover,
+.catalog-item__buymenu .buy:focus {
+	background-color: #5fbb2d;
+}
+
+.catalog-item__buymenu .buy:active {
+	background-color: #518534;
+	box-shadow: none;
+}
+
+.catalog-item__buymenu .inbookmarks {
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #32425c;
+	background-color: #fff;
+	border: 3px solid #63a63e
+	border-radius: 2px;
+}
+
+.catalog-item__buymenu .inbookmarks:hover,
+.catalog-item__buymenu .inbookmarks:focus {
+	border-color: #32425c;
+}
+
+.catalog-item__buymenu .inbookmarks:active {
+	color: rgba(50,66,92,0.3);
+	border-color: rgba(50,66,92,0.3);
+}
+
+.catalog-item__price {
+	font-family: 'PTSans', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.catalog-item__price .old-price {
+	text-decoration: line-through;
+	color: #999999;
+}
+
+.catalog-item__price .price {
+	color: #fff;
+	background-color: #ee3643;
 }
 
 .site-footer {
