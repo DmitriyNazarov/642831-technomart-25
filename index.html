@@ -371,27 +371,33 @@
 		<section class="modal modal-message">
 			<h2 class="visually-hidden">Написать сообщение</h2>
 			<form class="message-form" action="https://echo.htmlacademy.ru" method="post">
-				<p class="massage-form__element">
-					<label class="half-block">Ваше имя:
-						<input type="text" name="message-name" placeholder="Имя Фамилия">
-					</label>
-					<label class="half-block">Ваш e-mail:
-						<input type="email" name="message-email" placeholder="email@example.com">
-					</label>
-				</p>
-				<p class="massage-form__element">
-					<label>Текст письма:
-						<textarea name="massage-text" cols="60" rows="8"></textarea>
-					</label>
-				</p>
-				<button class="btn" type="submit">Отправить</button>
+				<div class="message-form-container">
+					<p class="massage-form__element">
+						<label>Ваше имя:
+							<input class="massage-form__field" type="text" name="message-name" placeholder="Имя Фамилия">
+						</label>
+					</p>
+					<p class="massage-form__element">
+						<label>Ваш e-mail:
+							<input class="massage-form__field" type="email" name="message-email" placeholder="email@example.com">
+						</label>
+					</p>
+					<p class="massage-form__element massage-form__element--wide">
+						<label>Текст письма:
+							<textarea class="massage-form__field" name="massage-text" cols="60" rows="5" placeholder="В свободной форме"></textarea>
+						</label>
+					</p>
+				</div>
+				<div class="modal-btn-wrap">
+					<button class="btn btn--wide" type="submit">Отправить</button>
+				</div>
 			</form>
 			<button class="modal-close-btn" type="button" aria-label="Закрыть форму отправки сообщений">x</button>
 		</section>
 
 		<section class="modal modal-map">
 			<h2 class="visually-hidden">Мы на карте</h2>
-			<img src="img/map-full.jpg" alt="Адресс магазин «Техномарт» г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+			<img src="img/map-full.jpg" width="940" height="446" alt="Адресс магазин «Техномарт» г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
 			<button class="modal-close-btn" type="button" aria-label="Закрыть карту">x</button>
 		</section>
   </body>
