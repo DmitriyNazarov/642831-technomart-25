@@ -89,7 +89,7 @@ input[type="radio"].visually-hidden {
 
 .btn--services {
 	width: 195px;
-	margin-top: 28px;
+	margin-top: 27px;
 }
 
 .btn--aboutus {
@@ -921,7 +921,7 @@ input[type="radio"].visually-hidden {
 }
 
 .services {
-	margin-bottom: 78px;
+	margin-bottom: 79px;
 	padding-top: 64px;
 	background-color: #f5f8fa;
 }
@@ -1035,6 +1035,10 @@ input[type="radio"].visually-hidden {
 
 .tabs-content-block__description--delivery {
 	padding-right: 105px;
+}
+
+.tabs-content-block__description--guarantee {
+	padding-right: 5px;
 }
 
 .tabs-content-block__description--credit {
