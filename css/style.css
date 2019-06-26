@@ -1014,7 +1014,7 @@ input[type="radio"].visually-hidden {
 .popular-brands-list__item:hover,
 .popular-brands-list__item:focus {
 	-webkit-box-shadow: 0 10px 25px rgba(41, 52, 73, .5);
-	        box-shadow: 0 10px 25px rgba(41 ,52, 73, .5);
+	        box-shadow: 0 10px 25px rgba(41, 52, 73, .5);
 }
 
 .popular-brands-list__item:active {
