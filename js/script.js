@@ -4,9 +4,9 @@ var modals = document.querySelectorAll('.modal'),
 	btnMessage = document.querySelector('.modal-message-open'),
 	modalMessage = document.querySelector('.modal-message');
 	messageForm = document.querySelector('.message-form');
-	messageFields = document.querySelectorAll('.massage-form__field'),
-	fieldName = document.querySelector('.massage-form__field[name="message-name"]'),
-	fieldEmail = document.querySelector('.massage-form__field[name="message-email"]'),
+	messageFields = document.querySelectorAll('.message-form__field'),
+	fieldName = document.querySelector('.message-form__field[name="message-name"]'),
+	fieldEmail = document.querySelector('.message-form__field[name="message-email"]'),
 	btnMap = document.querySelector('.map'),
 	modalMap = document.querySelector('.modal-map'),
 	notice = document.querySelector('.notice'),
